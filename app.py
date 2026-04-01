@@ -8,7 +8,7 @@ st.write("Prototype risk scoring tool for UK residential blocks")
 
 @st.cache_data
 def load_data():
-    return pd.read_csv("data/sample_buildings.csv")
+    return pd.read_csv("sample_buildings.csv")
 
 df = load_data()
 
